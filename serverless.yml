@@ -19,3 +19,6 @@ functions:
     handler: handler.checkAge
     events:
       - schedule: cron(0/15 * * * ? *)
+    environment:
+      AGE_TARGET: 31
+      PHONE_NUMBER: 44XXXXXXXXXX
